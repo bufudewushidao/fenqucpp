@@ -5,9 +5,8 @@ int main()
 {
     int zhumian1,mb,zhumian,ntfs ;
     int fat32 ;
-    double gb ; /*   本行代码用double定义了带小数点的变量 */
-    cout << "本程序由公众号it电报开发，官网：xwh.at" << endl ;
-    cout << "请输入想要的GB值，并按2次回车键" << endl ;
+    double gb ; /*   鏈浠ｇ爜鐢╠ouble瀹氫箟浜嗗甫灏忔暟鐐圭殑鍙橀噺 */
+    cout << "璇疯緭鍏ユ兂瑕佺殑GB鍊硷紝骞舵寜2娆″洖杞﹂敭" << endl ;
 
     cin >> gb ;
     zhumian = (gb * 1024 ) / 7.84423828125 ;
@@ -17,9 +16,9 @@ int main()
 
     fat32 = ( gb -1 ) * 4 + 1024 * gb ;
 
-    cout << "ntfs的结果为" << endl ;
+    cout << "ntfs鐨勭粨鏋滀负" << endl ;
     cout << ntfs << endl ;
-    cout << "fat32的结果为" << endl ;
+    cout << "fat32鐨勭粨鏋滀负" << endl ;
     cout << fat32 << endl ;
 
     system("pause");
